@@ -43,7 +43,6 @@ I am a Computer Engineering student based in Thailand, specializing in **Compute
 ---
 
 ### 🚀 Featured Projects
-*(Don't forget to pin your best repositories to your profile!)*
 
 *   **Seeing Eyes:** AI-Powered Assistive System for the Visually Impaired (YOLOv8, Apple Depth Pro, FastAPI)
 *   **Thai Herbs Classification:** Custom CNN model optimization and data augmentation using TensorFlow/Keras.
