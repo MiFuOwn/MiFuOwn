@@ -34,29 +34,40 @@ I am a Computer Engineering student based in Thailand, specializing in **Compute
 <p align="left">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
   <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 </p>
 
-**IoT & Realtime Systems**
+**Databases & Infra**
 <p align="left">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
   <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
   <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" />
-  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
 </p>
 
 ---
 
 ### 🚀 Featured Projects
 
-*   🦯 **Seeing Eyes** — AI-powered assistive navigation system for the visually impaired. Combines **YOLOv8** for object detection, **MiDaS/Apple Depth Pro** for monocular depth estimation, and **SAM** for segmentation, served through a **FastAPI/PHP** backend with an ESP32 camera client and audio feedback for real-time obstacle awareness.
+*   🦯 **Seeing Eyes — VisionAssist Platform** — Full assistive-navigation ecosystem for the visually impaired: an ESP32 smart camera (deep-sleep, single-button) feeds a **FastAPI + PostgreSQL** backend running **YOLOv8** detection, monocular depth estimation, and **Gemini** scene description, converted to Thai speech via **gTTS**; paired with an **Expo/React Native** caregiver dashboard for real-time monitoring.
+
+*   👁️ **AI for Blind (Core AI Backend)** — Standalone deep-dive backend service powering the blind-assist pipeline: async **FastAPI** job queue, **YOLOv8** object detection, **Apple Depth Pro** 3-point median depth sampling, parallel **Gemini** scene analysis with automatic fallback, and an FFmpeg-compressed Thai TTS pipeline optimized for microcontroller playback.
 
 *   🏫 **Room-Check** — Smart IoT room-monitoring system pairing an **ESP32/ESP8266** sensor node (light & sound sensors) with a **Streamlit** real-time dashboard via **Firebase Realtime Database**, featuring interactive Plotly gauge charts and automated **LINE Bot** notifications with anti-spam session control.
 
 *   🌿 **Thai Herbs Classification** — Multi-class **CNN** image classifier for Thai herbs built with **TensorFlow/Keras**, focused on tackling overfitting through Data Augmentation, Batch Normalization, and Dropout, with full architecture experimentation documented in a Jupyter Notebook.
+
+*   🚍 **GranWay Travel** — Full-stack **PHP + MySQL** bus ticket booking system with interactive seat maps, QR-code payment slip upload, automated **PHPMailer** email confirmations, and a session-based admin dashboard for approving/managing bookings across multiple routes.
+
+*   🎬 **AF Cineplex** — Full-stack movie ticket booking platform with a **React + TypeScript (Vite)** frontend and **Express + TypeScript** REST API backend on **MySQL/MariaDB**, featuring a real-time interactive seat map (VIP/Premium/Regular), double-booking prevention via unique constraints, and QR-code payment upload.
 
 ---
 
