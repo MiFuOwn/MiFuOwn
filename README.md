@@ -40,12 +40,23 @@ I am a Computer Engineering student based in Thailand, specializing in **Compute
   <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
 </p>
 
+**IoT & Realtime Systems**
+<p align="left">
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/ESP32-000000?style=for-the-badge&logo=espressif&logoColor=white" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+</p>
+
 ---
 
 ### 🚀 Featured Projects
 
-*   **Seeing Eyes:** AI-Powered Assistive System for the Visually Impaired (YOLOv8, Apple Depth Pro, FastAPI)
-*   **Thai Herbs Classification:** Custom CNN model optimization and data augmentation using TensorFlow/Keras.
+*   🦯 **Seeing Eyes** — AI-powered assistive navigation system for the visually impaired. Combines **YOLOv8** for object detection, **MiDaS/Apple Depth Pro** for monocular depth estimation, and **SAM** for segmentation, served through a **FastAPI/PHP** backend with an ESP32 camera client and audio feedback for real-time obstacle awareness.
+
+*   🏫 **Room-Check** — Smart IoT room-monitoring system pairing an **ESP32/ESP8266** sensor node (light & sound sensors) with a **Streamlit** real-time dashboard via **Firebase Realtime Database**, featuring interactive Plotly gauge charts and automated **LINE Bot** notifications with anti-spam session control.
+
+*   🌿 **Thai Herbs Classification** — Multi-class **CNN** image classifier for Thai herbs built with **TensorFlow/Keras**, focused on tackling overfitting through Data Augmentation, Batch Normalization, and Dropout, with full architecture experimentation documented in a Jupyter Notebook.
 
 ---
 
@@ -55,5 +66,4 @@ I am a Computer Engineering student based in Thailand, specializing in **Compute
   <a href="mailto:thikhathat.r@ku.th">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
-
 </p>
